@@ -10,8 +10,8 @@ function App() {
     
     if (isRunning) {
       intervalId = setInterval(() => {
-        setScrollYValue(prev => prev - 10);
-      }, 50);
+        setScrollYValue(prev => prev - 2);
+      }, 16);
     }
   
     return () => {
