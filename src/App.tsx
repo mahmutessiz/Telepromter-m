@@ -10,7 +10,7 @@ function App() {
     
     if (isRunning) {
       intervalId = setInterval(() => {
-        setScrollYValue(prev => prev - 2);
+        setScrollYValue(prev => prev - 0.5);
       }, 16);
     }
   
@@ -25,9 +25,8 @@ function App() {
     <main className="container">
       <div
         style={{
-          width: "200px",
-          height: "200px",
-          backgroundColor: "yellow",
+          width: "100%",
+          height: "90vh",
           overflow: "hidden",
           textAlign: "center",
         }}
@@ -35,9 +34,37 @@ function App() {
         <p
           style={{
             transform: `translateY(${scrollYValue}px)`,
-            padding: "10px",
+            padding: "10px 40px 10px 40px",
+            fontSize: "42px",
+            lineHeight: "1.5",
+            color: "white",
           }}
         >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          voluptatibus suscipit accusamus, quisquam, recusandae laborum earum
+          provident temporibus ex asperiores, ipsum in impedit sapiente! Est
+          necessitatibus aliquid a animi ad totam quo earum, nihil quam
+          temporibus voluptates similique excepturi doloribus ipsa fuga tenetur
+          tempore eaque iure, veritatis veniam. Provident quo, explicabo, ipsam
+          beatae sequi qui rerum ipsum alias dolore illo at error. Quod
+          laudantium beatae libero eum explicabo voluptatibus, alias harum
+          tenetur sit, voluptates provident iusto, maxime atque fugit eligendi
+          est blanditiis ut voluptatem delectus! Quo repellat nulla dicta
+          doloremque blanditiis adipisci cupiditate magni, cumque impedit id
+          pariatur, deserunt velit expedita minus tempore! Possimus ab mollitia,
+          cumque explicabo reprehenderit aspernatur veritatis assumenda id
+          dolores consequuntur accusamus cupiditate numquam vitae consequatur
+          non fuga iure natus illum. Nulla, sapiente placeat! Possimus aut
+          commodi ex ab dolor, neque rem harum veniam accusamus nam earum
+          dolorem omnis cum pariatur dicta facere amet velit praesentium ad.
+          Sapiente accusamus fugit enim quasi quae accusantium praesentium nemo
+          aspernatur vero quidem ipsam atque, dolorum at, recusandae odio
+          ducimus quibusdam incidunt eum perferendis a! Deserunt odio aliquam
+          aperiam? Quo consequatur ut, perspiciatis dolores, totam corporis
+          aliquam aut aliquid nesciunt mollitia doloremque minima vitae magni
+          quia unde ipsa at accusamus.
+          <br />
+          <br />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
           voluptatibus suscipit accusamus, quisquam, recusandae laborum earum
           provident temporibus ex asperiores, ipsum in impedit sapiente! Est
